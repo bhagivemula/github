@@ -6,13 +6,14 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.DataProvider;
+
 import org.testng.annotations.Test;
 
 import Day_034_TestNG_Listeners.TestBrowser;
 
 public class Data_Provider_Nonstatic_Parameter {
 	
-	static WebDriver driver;
+	
 	
 	//step1-Global variables
 		 String TestURL="https://opensource-demo.orangehrmlive.com/";

@@ -13,6 +13,8 @@ public class Data_Provider2 {
 	
 	
 	private static final String JavascriptExecutor = null;
+
+
 	WebDriver driver;
 	
 	@DataProvider(name = "TC01_OrangeHRM")
